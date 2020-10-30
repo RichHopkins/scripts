@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pgr:powergrep xmlns:pgr="http://www.powergrep.com/powergrep42.xsd" version="4.2">
+	<actionfile>
+		<fileselection archives="1" globalmasks="1" regexmasks="1" includemasks=".cf(c|m)">
+			<drive name="D:">
+				<folder name="Workflow">
+					<folder name="Environments">
+						<folder name="DevInt">
+							<folder name="core">
+                                                               <folder name="com">
+									<folder name="equator" marked="1" recursemasks="1">
+										<folder name="core">
+											<folder name="utility">
+												<folder name="validateThis" unmarked="1" />
+											</folder>
+										</folder>
+									</folder>
+								</folder>
+                                                        </folder>
+						</folder>
+					</folder>
+				</folder>
+			</drive>
+		</fileselection>
+		<action actiontype="search" collectsort="alpha inc" searchtype="regex" concurrent="1" collectbetweentype="line break" targettype="single" targetdest="single folder" targetlocation="D:\Workflow\Builds\DevInt\Logs\RegEx\COM_CreateObject\output.txt" targetencoding="bytes" targetlinebreakstyle="same" targetorder="none group" backuptype="none">
+			<searchtext>CREATEOBJECT</searchtext>
+			<sectioning sectiontype="whole file"/>
+			<context contexttype="line" numbering="1" extra="context" extrabefore="3" extraafter="3"/>
+		</action>
+	</actionfile>
+</pgr:powergrep>

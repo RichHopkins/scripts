@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path D:\ServerBox\* -Include *.log, *.mdmp -Recurse -Force | Where-Object { !$_.PSIsContainer -and $_.LastWriteTime -lt ((Get-Date).AddDays(-7)) } | Remove-Item -Force
