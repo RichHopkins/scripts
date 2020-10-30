@@ -18,5 +18,3 @@
 		}
 	}
 }
-
-Find-FirstRecurringCharacter 'abcdedcba'
