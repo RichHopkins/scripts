@@ -1,0 +1,821 @@
+﻿<File version="2.1">
+  <FileID>d54dbbb3-3e30-4611-bab3-e6bd83e54537</FileID>
+  <Preview>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
+24Sp823ijMU2c84Sm+Pq3MwFa902qFPYN/9et3yB26blG/a7TmR7f11RCGg6fmFwAUB3D2rvvtBX
+rK5b1XbCMtybmLGj0FbvK/dD/gPNdNNnbsyxjQdqrLyly2o7ztgnKzbahI/mW8dps8q2Hh8k9pY0
+WlZetUsszb5w7S1tslJXtNRz1/Ns93xNVp6/0DDrQJU99fLbtmzDLqtwRTSv6pBLdMW+gBY3HvNt
+7XGFr6jhqNW4lbzn1jV7yVpr6rzo39xyV1y351X53rKKsNav5TVN69I2aN1aZ/J8T3GjS1l9FzpO
+/GiBCy8fue2osWL3Zmq9edWH/LwqtDWuYKu3/tzr7/o3uab9VP8697s0qOK+1QUJFW2tR8vluFSX
+daDaDrh2pEZH1JZerzt81j6Yvdgmuz+Y5s5LNn/1ZzZu6hwXNJbaGxNm+P1VmtNIw3Ovv+PaavH7
+OW/FJhv95ni/b0q62s4ClwT1fqnd5PeIiDhSrGjtti05NbZhZ4k7fh/1vef9Kaqj6jueKep5UcPx
+G+aTOs5u2Vvhjue1tnF3ue3Iq3XH2CPutXav2spYu8fWrdviO8NdnV125PBRO3v2jH8+ZcZ821Pa
+6o7JHX7+3Ip2K3U1Zc3WAndcb7VVLgjsV4/frUu995yKQ679Y7Z8U45NnTHP7Ktrlru/yJYtX+/b
+W75yg300f62rB26/3LzaNy1X5I7/Gk3Id8EgOfYXu/1p7bo0+ADQceKiT09l1y13b2SOK3Rrcq4X
+/+z0rsutsOyqVv/G1x85a4vXZdkjo16w92ctcgmlyW1kq70/e5FNc2nm1Xcn29odefaK6znXHTnj
+C92SDTttR0G1veV68O/O+MQWZG61Hz/0W5v48QJflD9evNremT7HFfl1Lik126iX3/Lr0LZWHuxx
+veB6m+KS0RIXGPR86/5y1+5s+8AVVIWEtTsO2FuTPrSVW7NtxWd77e0PPvbrVm9ar734x4m+6M5b
+ucnenf6JPf/Gu/bYc6/YNJfoPly4ygrdm/vOtDl+3Wpf6rHmUzCobu91Bb3Uxk6Z7bej0KXOjA07
+7A9vvmcL12yzVVv32avvTPGP35j4ofvl7rHXJ0x369vsl204ft4mz11iU+cttdYTV9y+bbc/Tp7l
+i/sjo/5gK7dk2+sTp9v63QV927zzgA8of5w8037+2NPufV1mE2cucPt6xL/nG/cWWdWh3v7fIyLi
+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
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQQQBARIxTAgAGFQQA
+RMQ4JQBgUEEAQESMUwIABhUEAETEOCUAYFBBAEBEjFMCAAYVBABExDglAGBQoQAwadIk27t3r23f
+vh0RESMxOzvbxo0bRwDAbypGjRplDzzwgD311FP2+OOPIyJiJOr4ft9999lLL73kj/cDawABYAR7
+8eJFKygosE8//dTmzp2LiIiRqeN7SUmJP94PrAEEgBHs6dOn7fPPP/fJEAAA4uTKlSv+eD+wBhAA
+EBERR6AEAERExEF4/vx535seLl6+fNnV5bNp90USABAREW+hzqEfO3bM9u/fbzk5OZabmzuk1TYW
+FRX5of9z586l3ScCACIi4k1Uz//48eO2YMEC27Jliw8B6YruUFHbJ1esWGHr16/3ASDdSAABABER
+8SZeunTJKioqbO3atf6iumvXrg15hUYtFi1aZD09PQQARETE2zUJALq5zldffeWL6Z2otq5eveqL
+s/jyyy/9tOR1jTTo9aTH/m3Vdq9atcpOnDjhn6fukyQAICIi3sQkAGzbtq2/aN+JuihPpxDGjBnj
+XbJkib9YT6+p6B85csTfwvfChQt+WrqP7t2OChQrV64kACAiIt6JSQDYunWrv3dKb2/vHSmefvpp
+mzBhgu3bt8/fiE3D9GpfxVpFuqWlxd5++207dOiQf56uncGqUEEAQEREvENTA4B68SqoOq9+u2r0
+QLflXb58uf9EgYp/YWGhZWZmWn19vc2cOdOysrLsP//zP23y5Ml+dCBdO4NV204AQEREvEOTAKBv
+11NhbWtrs4MHD962GtJ/7rnn7MEHH/T36W9ubvajAHrs6qqNHTvWfy/LI4884r+h9ejRo2nbGYza
+xs7OTgIAIiLinZoaALq6uqypqckX79u1u7vbnwLQxYS6Ul+jACrSTz75pP393/+95eXl+S/xefjh
+h62srMwX8XTtDEZtowIEAQAREfEOVQCorKz0AUBFW8P1DQ0Nt63Cg4r9T3/6U9/j130FduzYYW++
++aZt3LjRHnvsMXv++ef9V7TrdEB7e3vadgZjXV2dv6iQAICIiHiHJgFAw/KHDx+2mpoaq62tvW0b
+Gxv9d/Sr8Oub+hQoli5dauPHj7cZM2ZYRkaG5efn++KtTxyokKdrZzBWV1f7AEEAQEREvEOTUwD6
+CF9HR4eVl5f757erllNxTobpdcW/LvZ78cUXbfTo0f5GQ62trVZVVeVDwJ2uR+oUgraV+wAgIiLe
+oQoAKty6q56G8dWz1sf0vq26WE/F+dSpU16dXtC0dPPejmpDw/+6DmDevHn+I4EEAERExNs0+TKd
+devW+eF7fWxv9erVQ1pto04z6MLC5MZCAyUAICIi3sLk9rzqWWtofTioLzBS8U/X+5cEAERExEGo
+Qqo79g0n0+1HIgEAERFxBEoAQEREHIESABAREUegBABERMQRKAEAERFxBEoAQEREHIH+SQKAbHYN
+qTFEREQc+jZer9/fOgCoAZ8kEBERccibWr9vOwDUuwDgCz8iIiIOS+ucxwcbAMaMGVN2ycw6Lzjd
+QoiIiDg8VfG/7Gr6ug2f3ToAPProY5Vr12+2FavW+sSAiIiIw9d1GzbbuHfG3zoAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk/Nmf/X+pt7anAU8sAAAAAABJRU5ErkJggg==</Preview>
+  <Object type="System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="formMain" children="Controls">
+    <Property name="AutoScaleDimensions">6, 13</Property>
+    <Property name="AutoScaleMode">Font</Property>
+    <Property name="ClientSize">784, 562</Property>
+    <Property name="Icon">
+      <Binary>AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAACMuAAAjLgAAAAAA
+AAAAAAD////c////8v///+3////t////7f///+3////t////7f///+3////t9PHs79nPvvTCsZX5
+s558/KmRav6wmnf8+vn37v///+3////t////7f///+3////t////7f///+3////t////7f///+3/
+///t////7f///+3////y////3P///+3/////////////////////////////////////7+rj/8Oy
+l/+mjWX/oohe/6KIXv+iiF7/oohe/62Wcv/7+ff/////////////////////////////////////
+///////////////////////////////////////////t////7f//////////////////////////
++vn3/8u9pf+kimH/oohe/6KIXv+znnz/zcCp/+LazP/t6eH/9PHr/////v//////////////////
+/////////////////////////////////////////////////////////////+3////t////////
+/////////////+/q4/+ynXr/oohe/6KIX/+/rZH/6ePY//7+/v//////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////7f///+3////////////////p49n/qZBp/6KIXv+tlnD/5NzQ////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////t////7f//////////7+rj/6qTbf+iiF7/t6OD//Xy7v//////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////+3////t//////r49v+0n33/oohe/7ikg//5
++PX/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////7f///+3/////yruj
+/6KIXv+umHP/9fLu////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///t////7ezn3v+jimH/oohe/+LazP//////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////+3////txLOY/6KIXv+/rZH/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////7fPw6u+njmb/oohe/+ji1///////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////t2M689KKIXv+2ooH/
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/+3BsJT5oohe/8W1m//z8Or/7uri/+7q4v/u6uL/7uri/+7q4v/u6uL/7uri/+7q4v/u6uL/7uri
+/+7q4v/u6uL/7uri/+7q4v/u6uL/7uri/+7q4v/u6uL/7uri/+7q4v/u6uL/7uri/+7q4v/u6uL/
+7uri/+7q4v/t6eH/8u7o77Ode/yiiF7/oohf/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+i
+iF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KI
+Xv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+xm3j8tJ58+6uUbv+tlnD/rJVw/6yVcP+slXD/rJVw
+/6yVcP+slXD/rJVw/6yVcP+slXD/rJVw/6yVcP+slXD/rJVw/6yVcP+slXD/rJVw/6yVcP+slXD/
+rJVw/6yVcP+slXD/rJVw/6yVcP+slXD/rJVw/6yVcP+slXD/qpNt/7OefPz8+/rt/Pz7//z8+//8
+/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pz7//z8
++//8/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pz7//z8+//8/Pv//Pv6
+7fv59+77+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7+vj/
++/r4//v6+P/7+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7+vj/+/r4//v6+P/7
++vj/+/r4//v6+P/7+ffusp16/KmRav+qkmz/qpJr/6qSa/+qkmv/qpJr/6qSa/+qkmv/qpJr/6qS
+a/+qkmv/qpJr/6qSa/+qkmv/qpJr/6qSa/+qkmv/qpJr/6qSa/+qkmv/qpJr/6qSa/+qkmv/qpJr
+/6qSa/+qkmv/qpJr/6qSa/+qkmz/qZFq/7Kdevyznnz8oohe/6OJYP+iiF7/oohe/6KIXv+iiF7/
+oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+i
+iF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6OJYP+iiF7/sp16/MKxlvmiiF7/xbWb//bz
+7//x7eb/8e3m//Ht5v/x7eb/8e3m//Ht5v/x7eb/8e3m//Ht5v/x7eb/8e3m//Ht5v/x7eb/8e3m
+//Ht5v/x7eb/8e3m//Ht5v/x7eb/8e3m//Ht5v/x7eb/8e3m//Ht5v/28+//x7ie/6KIXv/BsJT5
+2c++9KKIXv+0n37//v7+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//+2ooH/oohe/9jNu/Tz8Ovvp49n/6KIXv/k3ND/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////6ePY/6KIXv+mjmb/8+/q7////+3FtZv/oohe/7yqi///////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////ArpH/oohe/8SzmP/////t////7e3o3/+kimH/oohe
+/+DXyf//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////4trM/6KIXv+jimH/7Ofe/////+3/
+///t/////8u8pf+iiF7/rZZw//Pw6///////////////////////////////////////////////
+//////////////////////////////////////////////////////////////Xy7v+umHP/oohe
+/8q7o///////////7f///+3/////+/n3/7Wgf/+iiF7/taF///j28v//////////////////////
+///////////////////////////////////////////////////////////////////////////5
++PX/uKSD/6KIXv+0n33/+vj2///////////t////7f//////////8Ozm/6uUbv+iiF7/taB+//Pw
+6v//////////////////////////////////////////////////////////////////////////
+////////////9fLt/7aigf+iiF7/q5Nt/+/r5P///////////////+3////t////////////////
+6+Xc/6qSbP+iiF7/qpNt/+DXyf//////////////////////////////////////////////////
+/////////////////////////+Lazf+slW//oohe/6mRav/q5Nr/////////////////////7f//
+/+3/////////////////////8Ozm/7Wgf/+iiF7/oohe/7ypiv/l3tL//f38////////////////
+/////////////////////////////v38/+fg1f+9q43/oohe/6KIXv+0nnz/7+vk////////////
+///////////////t////7f//////////////////////////+/r5/87Aqv+ljGP/oohe/6KIXv+w
+mnb/yruj/9/Vx//r5dz/8Ovk//Ds5f/r5t3/39bH/8q8pP+xm3j/oohe/6KIXv+li2L/zb+p//v6
++P///////////////////////////////+3////t////////////////////////////////////
+//Ht5v/Gt53/p49n/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+iiF7/oohe/6KIXv+nj2f/
+xrac//Ds5f//////////////////////////////////////////7f///9z////y////7f///+3/
+///t////7f///+3////t////7f///+328+/v3NPD88W0mvi1oH77rJVv/aePZ/6nj2f+rJVv/bWg
+fvvFtJr43NPD8/bz7+/////t////7f///+3////t////7f///+3////t////7f////L////cAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAA=</Binary>
+    </Property>
+    <Property name="Name">formMain</Property>
+    <Property name="StartPosition">CenterScreen</Property>
+    <Property name="Text">Equator Security Team Utility</Property>
+    <Event name="Load">FormEvent_Load</Event>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonExportCSV" children="Controls">
+      <Property name="Location">93, 74</Property>
+      <Property name="Name">buttonExportCSV</Property>
+      <Property name="Size">75, 23</Property>
+      <Property name="TabIndex">9</Property>
+      <Property name="Text">&amp;Export CSV</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonExportCSV_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="labelGridSearch" children="Controls">
+      <Property name="Location">221, 9</Property>
+      <Property name="Name">labelGridSearch</Property>
+      <Property name="Size">63, 13</Property>
+      <Property name="TabIndex">8</Property>
+      <Property name="Text">Grid Search</Property>
+    </Object>
+    <Object type="System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="combobox1" children="Controls">
+      <Property name="FormattingEnabled">True</Property>
+      <Property name="Items">
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Get AD User Info</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Get AD User Group Membership</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Get AD Computers</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Get User CSA Environments</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Encryption Table Age Check</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Encryption Issues Check</Item>
+        <Item type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">View All Encryption Entries</Item>
+      </Property>
+      <Property name="Location">12, 6</Property>
+      <Property name="Name">combobox1</Property>
+      <Property name="Size">203, 21</Property>
+      <Property name="TabIndex">7</Property>
+      <Event name="SelectedIndexChanged">combobox1_SelectedIndexChanged</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="labelSearchPerameter" children="Controls">
+      <Property name="Location">12, 32</Property>
+      <Property name="Name">labelSearchPerameter</Property>
+      <Property name="Size">100, 13</Property>
+      <Property name="TabIndex">6</Property>
+      <Property name="Text">Search Perameter</Property>
+    </Object>
+    <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textbox1" children="Controls">
+      <Property name="Location">12, 48</Property>
+      <Property name="Name">textbox1</Property>
+      <Property name="Size">157, 20</Property>
+      <Property name="TabIndex">5</Property>
+      <Event name="TextChanged">textbox1_TextChanged</Event>
+    </Object>
+    <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxSeach" children="Controls">
+      <Property name="Location">294, 7</Property>
+      <Property name="Name">textboxSeach</Property>
+      <Property name="Size">400, 20</Property>
+      <Property name="TabIndex">0</Property>
+    </Object>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonSearch" children="Controls">
+      <Property name="Location">700, 7</Property>
+      <Property name="Name">buttonSearch</Property>
+      <Property name="Size">75, 23</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Text">&amp;Search</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonSearch_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="datagridviewResults" children="Controls">
+      <Property name="AllowUserToAddRows">False</Property>
+      <Property name="AllowUserToDeleteRows">False</Property>
+      <Property name="AllowUserToOrderColumns">True</Property>
+      <Property name="AlternatingRowsDefaultCellStyle">
+        <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAV1N5c3RlbS5XaW5kb3dzLkZvcm1zLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQYEAAAAKlN5c3RlbS5XaW5kb3dzLkZvcm1zLkRhdGFHcmlkVmlld0NlbGxTdHlsZQYFAAAADFZvaWQgLmN0b3IoKQYGAAAABy5jdG9yKCkBAAAACgs=">
+          <Property name="BackColor">224, 224, 224</Property>
+        </InstanceDescriptor>
+      </Property>
+      <Property name="Anchor">Top, Bottom, Left, Right</Property>
+      <Property name="AutoSizeColumnsMode">AllCells</Property>
+      <Property name="AutoSizeRowsMode">AllCells</Property>
+      <Property name="ColumnHeadersHeightSizeMode">AutoSize</Property>
+      <Property name="EditMode">EditOnF2</Property>
+      <Property name="Location">175, 36</Property>
+      <Property name="Name">datagridviewResults</Property>
+      <Property name="RowHeadersWidth">50</Property>
+      <Property name="RowsDefaultCellStyle">
+        <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAV1N5c3RlbS5XaW5kb3dzLkZvcm1zLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQYEAAAAKlN5c3RlbS5XaW5kb3dzLkZvcm1zLkRhdGFHcmlkVmlld0NlbGxTdHlsZQYFAAAADFZvaWQgLmN0b3IoKQYGAAAABy5jdG9yKCkBAAAACgs=">
+          <Property name="NullValue" />
+        </InstanceDescriptor>
+      </Property>
+      <Property name="RowTemplate">
+        <Property name="ReadOnly">True</Property>
+      </Property>
+      <Property name="ShowEditingIcon">False</Property>
+      <Property name="Size">600, 485</Property>
+      <Property name="TabIndex">2</Property>
+      <Event name="ColumnHeaderMouseClick">datagridviewResults_ColumnHeaderMouseClick</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonExit" children="Controls">
+      <Property name="Anchor">Bottom, Right</Property>
+      <Property name="Location">700, 527</Property>
+      <Property name="Name">buttonExit</Property>
+      <Property name="Size">75, 23</Property>
+      <Property name="TabIndex">4</Property>
+      <Property name="Text">E&amp;xit</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonExit_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonQuery" children="Controls">
+      <Property name="Location">12, 74</Property>
+      <Property name="Name">buttonQuery</Property>
+      <Property name="Size">75, 23</Property>
+      <Property name="TabIndex">3</Property>
+      <Property name="Text">&amp;Query</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonQuery_Click</Event>
+    </Object>
+  </Object>
+  <Code><![CDATA[
+
+function OnApplicationLoad {
+	#Note: This function is not called in Projects
+	#Note: This function runs before the form is created
+	#Note: To get the script directory in the Packager use: Split-Path $hostinvocation.MyCommand.path
+	#Note: To get the console output in the Packager (Windows Mode) use: $ConsoleOutput (Type: System.Collections.ArrayList)
+	#Important: Form controls cannot be accessed in this function
+	#TODO: Add snapins and custom code to validate the application load
+	Import-Module eqDevOps
+	return $true #return true for success or false for failure
+}
+
+
+function OnApplicationExit {
+	#Note: This function is not called in Projects
+	#Note: This function runs after the form is closed
+	#TODO: Add custom code to clean up and unload snapins when the application exits
+	
+	$script:ExitCode = 0 #Set the exit code for the Packager
+}
+
+function RowNumbers()
+{
+	$RowIndex = 0
+	$rowCount = $datagridviewResults.RowCount
+	
+	for(;$RowIndex -lt $rowCount; $RowIndex++)
+	{
+		$Row = $datagridviewResults.Rows[$RowIndex]
+		$rownumber = $Row.Index + 1
+		$Row.HeaderCell.Value = $rownumber.ToString()
+	}
+}
+
+function Remove-TextAfter {   
+    param (
+        [Parameter(Mandatory=$true)]
+        $string, 
+        [Parameter(Mandatory=$true)]
+        $value,
+        [Switch]$Insensitive
+    )
+
+    $comparison = [System.StringComparison]"Ordinal"
+    if($Insensitive) {
+        $comparison = [System.StringComparison]"OrdinalIgnoreCase"
+    }
+
+    $position = $string.IndexOf($value, $comparison)
+
+    if($position -ge 0) {
+        $string.Substring(0, $position + $value.Length)
+    }
+}
+
+Function Get-SaveFile($initialDirectory)
+{
+	[System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
+	$SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog
+	$SaveFileDialog.initialDirectory = $initialDirectory
+	$SaveFileDialog.filter = "CSV (*.CSV)| *.csv|All files (*.*)|*.*"
+	$SaveFileDialog.ShowDialog() | Out-Null
+	$SaveFileDialog.filename
+	Write-Output $outpath
+}
+
+#region Control Helper Functions
+function Load-ComboBox 
+{
+<#
+	.SYNOPSIS
+		This functions helps you load items into a ComboBox.
+
+	.DESCRIPTION
+		Use this function to dynamically load items into the ComboBox control.
+
+	.PARAMETER  ComboBox
+		The ComboBox control you want to add items to.
+
+	.PARAMETER  Items
+		The object or objects you wish to load into the ComboBox's Items collection.
+
+	.PARAMETER  DisplayMember
+		Indicates the property to display for the items in this control.
+	
+	.PARAMETER  Append
+		Adds the item(s) to the ComboBox without clearing the Items collection.
+	
+	.EXAMPLE
+		Load-ComboBox $combobox1 "Red", "White", "Blue"
+	
+	.EXAMPLE
+		Load-ComboBox $combobox1 "Red" -Append
+		Load-ComboBox $combobox1 "White" -Append
+		Load-ComboBox $combobox1 "Blue" -Append
+	
+	.EXAMPLE
+		Load-ComboBox $combobox1 (Get-Process) "ProcessName"
+#>
+	Param (
+		[ValidateNotNull()]
+		[Parameter(Mandatory=$true)]
+		[System.Windows.Forms.ComboBox]$ComboBox,
+		[ValidateNotNull()]
+		[Parameter(Mandatory=$true)]
+		$Items,
+	    [Parameter(Mandatory=$false)]
+		[string]$DisplayMember,
+		[switch]$Append
+	)
+	
+	if(-not $Append)
+	{
+		$ComboBox.Items.Clear()	
+	}
+	
+	if($Items -is [Object[]])
+	{
+		$ComboBox.Items.AddRange($Items)
+	}
+	elseif ($Items -is [Array])
+	{
+		$ComboBox.BeginUpdate()
+		foreach($obj in $Items)
+		{
+			$ComboBox.Items.Add($obj)	
+		}
+		$ComboBox.EndUpdate()
+	}
+	else
+	{
+		$ComboBox.Items.Add($Items)	
+	}
+
+	$ComboBox.DisplayMember = $DisplayMember	
+}
+
+function Load-DataGridView
+{
+	<#
+	.SYNOPSIS
+		This functions helps you load items into a DataGridView.
+
+	.DESCRIPTION
+		Use this function to dynamically load items into the DataGridView control.
+
+	.PARAMETER  DataGridView
+		The ComboBox control you want to add items to.
+
+	.PARAMETER  Item
+		The object or objects you wish to load into the ComboBox's items collection.
+	
+	.PARAMETER  DataMember
+		Sets the name of the list or table in the data source for which the DataGridView is displaying data.
+
+	#>
+	Param (
+		[ValidateNotNull()]
+		[Parameter(Mandatory=$true)]
+		[System.Windows.Forms.DataGridView]$DataGridView,
+		[ValidateNotNull()]
+		[Parameter(Mandatory=$true)]
+		$Item,
+	    [Parameter(Mandatory=$false)]
+		[string]$DataMember
+	)
+	$DataGridView.SuspendLayout()
+	$DataGridView.DataMember = $DataMember
+	
+	if ($Item -is [System.ComponentModel.IListSource] -or $Item -is [System.ComponentModel.IBindingList] -or $Item -is [System.ComponentModel.IBindingListView] )
+	{
+		$DataGridView.DataSource = $Item
+	}
+	else
+	{
+		$array = New-Object System.Collections.ArrayList
+		
+		if ($Item -is [System.Collections.IList])
+		{
+			$array.AddRange($Item)
+		}
+		else
+		{	
+			$array.Add($Item)	
+		}
+		$DataGridView.DataSource = $array
+	}
+	
+	$DataGridView.ResumeLayout()
+}
+
+#endregion
+
+#region Search Function
+function SearchGrid()
+{
+	$RowIndex = 0
+	$ColumnIndex = 0
+	$seachString = $textboxSeach.Text
+	
+	if($seachString -eq "")
+	{
+		return
+	}
+	
+	if($datagridviewResults.SelectedCells.Count -ne 0)
+	{
+		$startCell = $datagridviewResults.SelectedCells[0];
+		$RowIndex = $startCell.RowIndex
+		$ColumnIndex = $startCell.ColumnIndex + 1
+	}
+	
+	$columnCount = $datagridviewResults.ColumnCount
+	$rowCount = $datagridviewResults.RowCount
+	for(;$RowIndex -lt $rowCount; $RowIndex++)
+	{
+		$Row = $datagridviewResults.Rows[$RowIndex]
+		
+		for(;$ColumnIndex -lt $columnCount; $ColumnIndex++)
+		{
+			$cell = $Row.Cells[$ColumnIndex]
+			
+			if($cell.Value.ToString().IndexOf($seachString, [StringComparison]::OrdinalIgnoreCase) -ne -1)
+			{
+				$datagridviewResults.CurrentCell = $cell
+				return
+			}
+		}
+		
+		$ColumnIndex = 0
+	}
+	
+	$datagridviewResults.CurrentCell = $null
+	[void][System.Windows.Forms.MessageBox]::Show("The search has reached the end of the grid.","String not Found")
+	
+}
+#endregion
+
+$FormEvent_Load={
+	#TODO: Initialize Form Controls here
+	
+}
+
+$buttonExit_Click={
+	#TODO: Place custom script here
+	$formMain.Close()
+}
+
+$buttonQuery_Click={
+	#TODO: Place custom script here
+	$this.Enabled = $false
+	
+	$script:SQLServer = "CACRPDFS01"
+	$script:SQLDatabase = "Inventory"
+
+	$griddata = Invoke-Sqlcmd2 -Query $script:SQLQuery -ServerInstance $script:SQLServer -Database $script:SQLDatabase -QueryTimeout 60 | Select-Object * -exclude RowError,RowState,Table,ItemArray,HasErrors 
+	Load-DataGridView -DataGridView $datagridviewResults -Item $griddata
+	RowNumbers
+	$this.Enabled = $true
+}
+
+$buttonExportCSV_Click={
+	#TODO: Place custom script here
+	$this.Enabled = $false
+	[string]$outpath = Get-SaveFile("C:\")
+	Invoke-Sqlcmd2 -Query $script:SQLQuery -ServerInstance $script:SQLServer -Database $script:SQLDatabase -QueryTimeout 60 | Select-Object * -exclude RowError,RowState,Table,ItemArray,HasErrors | Export-CSV -Path $outpath -NoTypeInformation
+	$this.Enabled = $true
+}
+
+$buttonSearch_Click={
+	#TODO: Place custom script here
+	SearchGrid
+}
+
+$datagridviewResults_ColumnHeaderMouseClick=[System.Windows.Forms.DataGridViewCellMouseEventHandler]{
+#Event Argument: $_ = [System.Windows.Forms.DataGridViewCellMouseEventArgs]
+	if($datagridviewResults.DataSource -is [System.Data.DataTable])
+	{
+		$column = $datagridviewResults.Columns[$_.ColumnIndex]
+		$direction = [System.ComponentModel.ListSortDirection]::Ascending
+		
+		if($column.HeaderCell.SortGlyphDirection -eq 'Descending')
+		{
+			$direction = [System.ComponentModel.ListSortDirection]::Descending
+		}
+
+		$datagridviewResults.Sort($datagridviewResults.Columns[$_.ColumnIndex], $direction)
+		RowNumbers
+	}
+	else {
+		$arrADTables = "Status","Description"
+		$column = $datagridviewResults.Columns[$_.ColumnIndex]
+		[string]$columnName = $column.HeaderCell.Value.ToString()
+		
+		If ($index -eq 0){$script:SQLQuery = $script:SQLQuery + " ORDER BY [$columnName]"}
+		elseif ($index -eq 1) {$script:SQLQuery = $script:SQLQuery + " ORDER BY [$columnName]"}
+		elseif ($index -eq 2) {$script:SQLQuery = $script:SQLQuery + " ORDER BY [$columnName]"}
+		elseif ($index -eq 3) {$script:SQLQuery = $script:SQLQuery + " ORDER BY [$columnName]"}
+		elseif ($index -eq 4) {
+			if ($arrADTables -contains $column.HeaderCell.Value.ToString()) {
+				$script:SQLQuery = $script:SQLQuery + " ORDER BY ADComputers.[$columnName]"
+			}
+			else {
+				$script:SQLQuery = $script:SQLQuery + " ORDER BY DiskEncryption.[$columnName]"
+			}
+		}
+		elseif ($index -eq 5) {
+			if ($arrADTables -contains $column.HeaderCell.Value.ToString()) {
+				$script:SQLQuery = $script:SQLQuery + " ORDER BY ADComputers.[$columnName]"
+			}
+			else {
+				$script:SQLQuery = $script:SQLQuery + " ORDER BY DiskEncryption.[$columnName]"
+			}
+		}
+		elseif ($index -eq 6) {$script:SQLQuery = $script:SQLQuery + " ORDER BY [$columnName]"}
+		
+		#Write-Host $script:SQLQuery
+		$griddata = Invoke-Sqlcmd2 -Query $script:SQLQuery -ServerInstance $script:SQLServer -Database $script:SQLDatabase -QueryTimeout 60 | Select-Object * -exclude RowError,RowState,Table,ItemArray,HasErrors 
+		Load-DataGridView -DataGridView $datagridviewResults -Item $griddata
+		RowNumbers
+		#Write-Host " ORDER BY [$columnName]"
+		$script:SQLQuery = $script:SQLQuery.replace(" ORDER BY [$columnName]","") 
+		#Write-Host $script:SQLQuery
+	}
+}
+$combobox1_SelectedIndexChanged={
+	#TODO: Place custom script here
+	$textbox1.Clear()
+	$index = $combobox1.SelectedIndex
+	If ($index -eq 0){$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[ADUserAccounts]"}
+	elseif ($index -eq 1) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[ADUserGroups] WHERE [ADUserGroups].[ADGroup] <> ''"}
+	elseif ($index -eq 2){$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[ADComputers]"}
+	elseif ($index -eq 3) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[env_lookup]"}
+	elseif ($index -eq 4) {$script:SQLQuery = "SELECT DiskEncryption.HostName, ADComputers.Status, ADComputers.Description, DiskEncryption.DeviceID, DiskEncryption.VolumeName, DiskEncryption.VolumeSerialNumber, DiskEncryption.EncryptionMethod, DiskEncryption.EncryptionState, DiskEncryption.BitLockerKey, DiskEncryption.ChassisType, DiskEncryption.ChassisDescription, ADComputers.[Operating System], DiskEncryption.LastUpdate FROM ADComputers INNER JOIN DiskEncryption ON ADComputers.Name = DiskEncryption.HostName WHERE (DiskEncryption.LastUpdate < GETDATE() - 28) AND DiskEncryption.ChassisDescription NOT LIKE '%Desktop%' AND DiskEncryption.ChassisDescription NOT LIKE '%Tower%' AND DiskEncryption.ChassisDescription NOT LIKE '%Other%' AND DiskEncryption.DeviceID = 'C:'"}
+	elseif ($index -eq 5) {$script:SQLQuery = "SELECT DISTINCT DiskEncryption.HostName, ADComputers.Status, ADComputers.Description, DiskEncryption.DeviceID, DiskEncryption.VolumeName, DiskEncryption.VolumeSerialNumber, DiskEncryption.EncryptionMethod, DiskEncryption.EncryptionState, DiskEncryption.BitLockerKey, DiskEncryption.ChassisType, DiskEncryption.ChassisDescription, ADComputers.[Operating System], DiskEncryption.LastUpdate FROM ADComputers INNER JOIN DiskEncryption ON ADComputers.Name = DiskEncryption.HostName WHERE (DiskEncryption.EncryptionMethod = 'NONE' OR DiskEncryption.EncryptionState = 'Unencrypted') AND DiskEncryption.ChassisDescription NOT LIKE '%Desktop%' AND DiskEncryption.ChassisDescription NOT LIKE '%Tower%'"}
+	elseif ($index -eq 6) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[DiskEncryption]"}
+	#Write-Host $script:SQLQuery
+}
+
+$textbox1_TextChanged={
+	#TODO: Place custom script here
+	If ($index -eq 0) {$script:SQLQuery = "SELECT [UserID],[Account_Status],[First_Name],[Last_Name],[Name],[Common_Name],[Display_Name],[Initials],[Address],[PO_Box],[City],[State],[Zip_Code],[Telephone],[Mobile Phone] as 'Mobile',[Department_Number],[Department],[Office],[Division],[Employee_ID],[Employee_Number],[Employee_Type],[Manager],[Company],[Title],[Distinguished_Name],[Home_Directory],[Home_Drive],[Mail],[Internet_Access],[Remote_Access_Permission],[Last_Logon],[Last_Logon_Domain_Controller],[Account_Last_Modified] FROM [Inventory].[dbo].[ADUserAccounts] WHERE [UserID] LIKE '%$($textbox1.Text.ToString())%'"}
+	elseif ($index -eq 1) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[ADUserGroups] WHERE [ADUserGroups].[ADGroup] <> '' AND [UserID] LIKE '%" + [string]$textbox1.Text.ToString() + "%'"}
+	elseif ($index -eq 2) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[ADComputers] WHERE [Description] LIKE '%" + [string]$textbox1.Text.ToString() + "%'"}
+	elseif ($index -eq 3) {$script:SQLQuery = "SELECT * FROM [Inventory].[dbo].[env_lookup] WHERE [UserID] LIKE '%" + [string]$textbox1.Text.ToString() + "%'"}
+	elseif ($index -gt 4) {$textbox1.Clear()
+		[void][System.Windows.Forms.MessageBox]::Show("This query does not accept filters.","Error")}
+	#Write-Host $script:SQLQuery
+}]]></Code>
+  <Mode>1</Mode>
+  <Assemblies>
+    <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <Assembly>System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <Assembly>System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+  </Assemblies>
+</File>
