@@ -8,7 +8,7 @@ Function Get-GoogleAccessToken {
 	.DESCRIPTION
 		Retruns an Access Token that can be used to authenticate to Google Apps API.
 		
-		Put together using notes from https://jamesachambers.com/modify-google-sheets-using-powershell/
+		Taken from https://jamesachambers.com/modify-google-sheets-using-powershell/
 	
 	.PARAMETER certPath
 		Path to the .p12 cert file
@@ -18,6 +18,9 @@ Function Get-GoogleAccessToken {
 	
 	.PARAMETER certPassword
 		Default password is "notasecret", only needed if you changed the cert password from default
+	
+	.EXAMPLE
+		PS C:\> $accessToken = Get-GoogleAccessToken -certPath "C:\credFiles\path_to_cert.p12" -apiEmail 'rhopkinsposh@some_random_domain.gserviceaccount.com'
 	#>
 	[OutputType([string])]
 	Param
@@ -31,7 +34,9 @@ Function Get-GoogleAccessToken {
 		[Parameter(Position = 2)]
 		[string]$certPassword = "notasecret"
 	)
-		
+	
+	Import-Module UMN-Google
+	
 	# Set security protocol to TLS 1.2 to avoid TLS errors
 	[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 	
@@ -52,7 +57,6 @@ Function Convert-ToLetters {
 	.PARAMETER value
 		Int to convert
 	#>
-	
 	[OutputType([string])]
 	Param
 	(
@@ -74,14 +78,17 @@ Function Convert-ToLetters {
 }
 
 Function Publish-GoogleSheet {
-	<#
+<#
 	.SYNOPSIS
 		Takes an ArrayList, publishes to Google Sheets and sets permissions for access
 	
 	.DESCRIPTION
-		Takes an ArrayList, publishes to Google Sheets and sets permissions for access
+		Takes an ArrayList, publishes to Google Sheets and sets permissions for access.
+		
+		If spreadsheetTitle is passed, a new sheet will be created.  Or you can pass in spreadsheetID to update an existing spreadsheet.
 	
-		Put together using notes from https://jamesachambers.com/modify-google-sheets-using-powershell/
+	.PARAMETER accessToken
+		Access token needed to authenticate to Google API.
 	
 	.PARAMETER arrList
 		Data to be published to Google Sheets.
@@ -89,42 +96,79 @@ Function Publish-GoogleSheet {
 	.PARAMETER spreadsheetTitle
 		Title for the created spreadsheet.
 	
+	.PARAMETER spreadsheetID
+		ID for an existing spreadsheet.
+	
 	.PARAMETER sheetTitle
 		Title of the sheet on the shreadsheet.  Uses Sheet1 by default.
 	
 	.PARAMETER addUsers
 		Array of user emails that will get permissions to the spreadsheet.
 	
-	.PARAMETER accessToken
-		Access token needed to authenticate to Google API.
+	.OUTPUTS
+		string, string
+#>
 	
-	#>
-	
-	[CmdletBinding()]
+	[CmdletBinding(DefaultParameterSetName = 'spreadsheetTitle')]
+	[OutputType([string], ParameterSetName = 'spreadsheetTitle')]
+	[OutputType([string], ParameterSetName = 'spreadsheetID')]
+	[OutputType([string])]
 	Param
 	(
+		[Parameter(Mandatory = $true,
+				   Position = 0)]
+		[string]$accessToken,
+		[Parameter(Mandatory = $true,
+				   Position = 1)]
+		[ValidateNotNullOrEmpty()]
 		[System.Collections.ArrayList]$arrList,
+		[Parameter(ParameterSetName = 'spreadsheetTitle',
+				   Mandatory = $true,
+				   Position = 2)]
 		[string]$spreadsheetTitle,
+		[Parameter(ParameterSetName = 'spreadsheetID',
+				   Mandatory = $true,
+				   Position = 2)]
+		[string]$spreadsheetID,
+		[Parameter(Mandatory = $true,
+				   Position = 3)]
 		[string]$sheetTitle = "Sheet1",
-		[string[]]$addUsers = $env:USERNAME + '@' + $env:USERDNSDOMAIN,
-		[string]$accessToken
+		[Parameter(ParameterSetName = 'spreadsheetTitle')]
+		[string[]]$addUsers = $env:USERNAME + '@' + $env:USERDNSDOMAIN
 	)
 	
-	#create spreadsheet
-	$Spreadsheet = New-GSheetSpreadSheet -accessToken $accessToken -title $spreadsheetTitle
-	$SpreadsheetID = $Spreadsheet.spreadsheetId
+	Import-Module UMN-Google
 	
-	#Create new sheet/tab if needed
-	If ($sheetTitle -ne "Sheet1") {
-		Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $SpreadsheetID
+	#create spreadsheet if needed
+	If ($PSCmdlet.ParameterSetName -eq 'spreadsheetTitle') {
+		$spreadsheet = New-GSheetSpreadSheet -accessToken $accessToken -title $spreadsheetTitle
+		$spreadsheetID = $spreadsheet.spreadsheetId
+		#Create new sheet/tab if needed
+		If ($sheetTitle -ne "Sheet1") {
+			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+		}
+		#set permissions
+		ForEach ($user In $addUsers) {
+			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user
+		}
+	} Else {
+		#check to see if sheet exists, create if not, clear if yes
+		$test = Get-GSheetData -accessToken $accessToken -sheetName "BitBucket Users" -spreadSheetID $spreadsheetID -cell AllData 2>&1
+		If ($test -match "Cannot index into a null array.") {
+			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+		} Else {
+			Clear-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+		}
+		#set permissions
+		ForEach ($user In $addUsers) {
+			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user
+		}
 	}
 	
-	#set permissions
-	ForEach ($user In $addUsers) {
-		Set-GFilePermissions -accessToken $accessToken -fileID $SpreadsheetID -role writer -type user -emailAddress $user
-	}
-	
-	#Upload $arrList data to Google Sheets with Set-GSheetData
+	#Upload $arrList data to Google Sheets
 	$columnLetter = Convert-ToLetters -value $arrList[0].Count
-	Set-GSheetData -accessToken $accessToken -rangeA1 "A1:$($columnLetter)$($arrList.Count)" -sheetName $sheetTitle -spreadSheetID $SpreadsheetID -values $arrList -Debug -Verbose
+	Set-GSheetData -accessToken $accessToken -rangeA1 "A1:$($columnLetter)$($arrList.Count)" -sheetName $sheetTitle -spreadSheetID $spreadsheetID -values $arrList -Debug -Verbose
+	
+	Start-Process "https://docs.google.com/spreadsheets/d/$spreadsheetID"
+	Return "https://docs.google.com/spreadsheets/d/$spreadsheetID"
 }
