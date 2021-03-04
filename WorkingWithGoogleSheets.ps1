@@ -105,8 +105,14 @@ Function Publish-GoogleSheet {
 	.PARAMETER addUsers
 		Array of user emails that will get permissions to the spreadsheet.
 	
+	.PARAMETER overwrite
+		If using spreadsheetTitle and the title is found, overwrite it instead of creating a new spreadsheet
+	
 	.OUTPUTS
 		string, string
+	
+	.NOTES
+		Additional information about the function.
 #>
 	
 	[CmdletBinding(DefaultParameterSetName = 'spreadsheetTitle')]
@@ -133,42 +139,53 @@ Function Publish-GoogleSheet {
 		[Parameter(Mandatory = $true,
 				   Position = 3)]
 		[string]$sheetTitle = "Sheet1",
+		[string[]]$addUsers = $env:USERNAME + '@' + $env:USERDNSDOMAIN,
 		[Parameter(ParameterSetName = 'spreadsheetTitle')]
-		[string[]]$addUsers = $env:USERNAME + '@' + $env:USERDNSDOMAIN
+		[switch]$overwrite
 	)
 	
 	Import-Module UMN-Google
 	
 	#create spreadsheet if needed
 	If ($PSCmdlet.ParameterSetName -eq 'spreadsheetTitle') {
-		$spreadsheet = New-GSheetSpreadSheet -accessToken $accessToken -title $spreadsheetTitle
-		$spreadsheetID = $spreadsheet.spreadsheetId
+		#test to see if spreadsheet exists
+		$test = Get-GFileID -accessToken $accessToken -fileName $spreadsheetTitle 3>&1
+		If ($test -match "There are no files matching") {
+			$spreadsheet = New-GSheetSpreadSheet -accessToken $accessToken -title $spreadsheetTitle
+			$spreadsheetID = $spreadsheet.spreadsheetId
+		} ElseIf ($test.Count -gt 1) {
+			$spreadsheetID = $test[1]
+		} Else {
+			$spreadsheetID = $test
+		}
 		#Create new sheet/tab if needed
-		If ($sheetTitle -ne "Sheet1") {
-			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+		$test = Get-GSheetData -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID -cell AllData 2>&1
+		If ($test -match "Cannot index into a null array.") {
+			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID | Out-Null
+		} Else {
+			Clear-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID | Out-Null
 		}
 		#set permissions
 		ForEach ($user In $addUsers) {
-			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user
+			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user | Out-Null
 		}
 	} Else {
 		#check to see if sheet exists, create if not, clear if yes
-		$test = Get-GSheetData -accessToken $accessToken -sheetName "BitBucket Users" -spreadSheetID $spreadsheetID -cell AllData 2>&1
+		$test = Get-GSheetData -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID -cell AllData 2>&1
 		If ($test -match "Cannot index into a null array.") {
-			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+			Add-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID | Out-Null
 		} Else {
-			Clear-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID
+			Clear-GSheetSheet -accessToken $accessToken -sheetName $sheetTitle -spreadSheetID $spreadsheetID | Out-Null
 		}
 		#set permissions
 		ForEach ($user In $addUsers) {
-			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user
+			Set-GFilePermissions -accessToken $accessToken -fileID $spreadsheetID -role writer -type user -emailAddress $user | Out-Null
 		}
 	}
 	
 	#Upload $arrList data to Google Sheets
 	$columnLetter = Convert-ToLetters -value $arrList[0].Count
-	Set-GSheetData -accessToken $accessToken -rangeA1 "A1:$($columnLetter)$($arrList.Count)" -sheetName $sheetTitle -spreadSheetID $spreadsheetID -values $arrList -Debug -Verbose
+	Set-GSheetData -accessToken $accessToken -rangeA1 "A1:$($columnLetter)$($arrList.Count)" -sheetName $sheetTitle -spreadSheetID $spreadsheetID -values $arrList | Out-Null
 	
-	Start-Process "https://docs.google.com/spreadsheets/d/$spreadsheetID"
 	Return "https://docs.google.com/spreadsheets/d/$spreadsheetID"
 }
